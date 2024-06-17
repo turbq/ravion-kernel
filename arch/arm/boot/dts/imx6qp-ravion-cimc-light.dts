@@ -124,7 +124,7 @@
 		status_blue {
 			label = "status::blue";
 			linux,default-trigger = "heartbeat";
-			gpios = <&gpio1 4 GPIO_ACTIVE_LOW>;	/* soDimm188 */
+			gpios = <&gpio1 4 GPIO_ACTIVE_HIGH>;	/* soDimm188 */
 			default-state = "on";
 		};
 
