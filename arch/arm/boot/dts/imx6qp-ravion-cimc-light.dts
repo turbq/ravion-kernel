@@ -247,6 +247,7 @@
 		spi-max-frequency = <2500000>; /* 2.5MHz as start value */
 		interrupts = <6 IRQ_TYPE_LEVEL_HIGH>;
 		interrupt-parent = <&gpio1>;			/* soDimm180 */
+		reset-gpio = <&gpio2 6 GPIO_ACTIVE_LOW>;	/* soDimm123 */
 		sleep-gpio = <&gpio4 5 GPIO_ACTIVE_HIGH>;	/* soDimm176 */
 		xtal-trim = /bits/ 8 <0x06>;
 	};
