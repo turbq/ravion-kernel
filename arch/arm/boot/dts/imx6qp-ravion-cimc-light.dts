@@ -249,6 +249,7 @@
 		interrupt-parent = <&gpio1>;			/* soDimm180 */
 		sleep-gpio = <&gpio4 5 GPIO_ACTIVE_HIGH>;	/* soDimm176 */
 		xtal-trim = /bits/ 8 <0x06>;
+		rx-tx-indicator;
 	};
 };
 
